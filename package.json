@@ -1,0 +1,46 @@
+{
+  "name": "app-juego-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismaelsiten/gamify-life-backend.git"
+  },
+  "keywords": [
+    "keywords:",
+    "gamificación",
+    "objetivos",
+    "nodejs",
+    "express",
+    "firebase",
+    "backend",
+    "productividad",
+    "juego",
+    "niveles",
+    "recompensas",
+    "mongodb"
+  ],
+  "author": "Ismael Site Nsegue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ismaelsiten/gamify-life-backend/issues"
+  },
+  "homepage": "https://github.com/Ismaelsiten/gamify-life-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.2.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
